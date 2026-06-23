@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Smart Traffic Surveillance Dashboard
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>
+                🚔 Smart Traffic Surveillance Dashboard
+            </h1>
+
+            <p class="subtitle">
+                AI-Powered Vehicle Monitoring & Automatic Number Plate Recognition
+            </p>
+
+            <div class="features">
+
+                <div class="feature-card">
+                    ANPR
+                </div>
+
+                <div class="feature-card">
+                    Vehicle Logging
+                </div>
+
+                <div class="feature-card">
+                    Stolen Vehicle Alert
+                </div>
+
+                <div class="feature-card">
+                    Challan Generation
+                </div>
+
+                <div class="feature-card">
+                    Fake Plate Detection
+                </div>
+
+            </div>
+
+            <div class="upload-section">
+
+                <input
+                    type="file"
+                    id="imageInput"
+                    accept="image/*">
+
+            </div>
+
+            <img
+                id="preview"
+                src=""
+                alt="Preview">
+
+            <button id="detectBtn">
+
+                🔍 Detect Vehicle
+
+            </button>
+
+            <div class="result-box">
+
+                <h3>
+                    Detection Result
+                </h3>
+
+                <p id="result">
+
+                    Upload an image and click Detect Vehicle
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
