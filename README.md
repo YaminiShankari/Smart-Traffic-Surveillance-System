@@ -304,7 +304,7 @@ This project demonstrates practical applications of:
 
 # 👩‍💻 Author
 
-**Yamini**
+**Yamini Shankari AJ**
 
 B.Tech Computer Science Engineering
 
