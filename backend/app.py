@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-UPLOAD_FOLDER = r"D:\Yams\College\Sem_7\CV\uploads"
+UPLOAD_FOLDER = r"ENTER_THE_ACTUAL_PATH"
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
