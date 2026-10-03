@@ -23,7 +23,7 @@ def detect_plate(image_path):
 
             plate = image[y1:y2, x1:x2]
 
-            cv2.imwrite("D:\\Yams\\College\\Sem_7\\CV\\results\\cropped_plate.jpg", plate)
+            cv2.imwrite("ENTER_THE_ACTUAL_PATH", plate)
 
             ocr_result = reader.readtext(plate)
 
